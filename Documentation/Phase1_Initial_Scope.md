@@ -1,4 +1,24 @@
-
+Documentation — Initial Scope Assessment
+Alert ID
+WS-001
+Affected endpoint
+WS-FINANCE-01 / 192.168.1.55
+C2 IP / Port
+203.0.113.88:4444
+First seen
+2025-05-19 04:22 UTC
+Last seen
+2025-05-19 10:15 UTC
+Beacon interval
+Every 60 seconds — 6 hours continuous
+VirusTotal result
+38 / 72 engines — Malicious  C2 CobaltStrike Gh0stRAT
+OTX reputation
+Malicious — 145 pulses · first seen 2025-04-10
+Other affected hosts
+WS-HR-02 (192.168.1.78) — 3 connections, 05:10–05:45 UTC
+Determination
+True positive
 
 **What it does well:**
 
