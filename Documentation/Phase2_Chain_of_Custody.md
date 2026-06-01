@@ -30,7 +30,7 @@ C2 beaconing (202.0.113.110:4444)
 
          ↓
    
-Data exfiltration (38 MB patient_records.zip)
+Data exfiltration (38 MB Malware.zip)
 
          ↓
    
