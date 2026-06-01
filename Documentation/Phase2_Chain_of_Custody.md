@@ -26,7 +26,7 @@ Persistence (Registry Run key)
 
          ↓
    
-C2 beaconing (203.0.113.88:4444)
+C2 beaconing (202.0.113.110:4444)
 
          ↓
    
