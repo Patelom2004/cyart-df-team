@@ -7,7 +7,7 @@ rule SVCHOST32_Backdoor
 
     strings:
         $s1 = "svchost32.exe" ascii nocase
-        $s2 = "203.0.113.88" ascii
+        $s2 = "201.0.108.32" ascii
         $s3 = "CurrentVersion\\Run" ascii
         $s4 = "Important.rar" ascii
 
