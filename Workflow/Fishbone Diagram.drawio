@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WIlDpuYGXBMAXdFKPcU_">
+    <mxGraphModel dx="1030" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="People" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Process" vertex="1">
+          <mxGeometry height="60" width="100" x="240" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Technology" vertex="1">
+          <mxGeometry height="60" width="100" x="460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-10" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-5" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="User opened suspicious archive" vertex="1">
+          <mxGeometry height="50" width="200" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-11" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-6" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Limited phishing awareness" vertex="1">
+          <mxGeometry height="50" width="200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-7" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Delayed incident reporting" vertex="1">
+          <mxGeometry height="50" width="200" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Technology" vertex="1">
+          <mxGeometry height="60" width="100" x="670" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-9" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.402;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" target="57vI1DD_C1ozIN-Omr0W-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-19" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-15" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="No detection review schedule" vertex="1">
+          <mxGeometry height="50" width="200" x="214" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-20" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-16" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Weak incident response playbook" vertex="1">
+          <mxGeometry height="50" width="200" x="214" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-17" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Incomplete IOC monitoring" vertex="1">
+          <mxGeometry height="50" width="200" x="214" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-18" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.376;entryY=-0.048;entryDx=0;entryDy=0;entryPerimeter=0;" target="57vI1DD_C1ozIN-Omr0W-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-25" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="57vI1DD_C1ozIN-Omr0W-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-21" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="No alert for C2 traffic" vertex="1">
+          <mxGeometry height="50" width="200" x="430" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-27" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-22" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Missing EDR visibility" vertex="1">
+          <mxGeometry height="50" width="200" x="430" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-38" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-23" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Weak email filtering" vertex="1">
+          <mxGeometry height="50" width="200" x="430" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-26" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=-0.048;entryDx=0;entryDy=0;entryPerimeter=0;" target="57vI1DD_C1ozIN-Omr0W-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-32" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-28" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Sensitive patient data accessible" vertex="1">
+          <mxGeometry height="50" width="200" x="650" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-35" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="57vI1DD_C1ozIN-Omr0W-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-29" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Flat network architecture" vertex="1">
+          <mxGeometry height="50" width="200" x="650" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-30" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Excessive user permissions" vertex="1">
+          <mxGeometry height="50" width="200" x="650" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-36" edge="1" parent="1" source="57vI1DD_C1ozIN-Omr0W-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.348;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="57vI1DD_C1ozIN-Omr0W-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57vI1DD_C1ozIN-Omr0W-37" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Insufficient logging coverage" vertex="1">
+          <mxGeometry height="50" width="200" x="430" y="559.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
