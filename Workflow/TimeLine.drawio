@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="6ZQ5Ou6sgEWhloRuCtZb">
+    <mxGraphModel dx="1030" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-3" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Initial Access" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-5" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Execution&lt;br&gt;(Important.rar opened)&lt;br&gt;T1204.002" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-11" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Malware Execution&lt;br&gt;(svchost32.exe)&lt;br&gt;T1055" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-17" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Detection&lt;br&gt;(Wazuh Alert)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-15" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Defense Evasion&lt;br&gt;(Log Clearing)&lt;br&gt;T1070.001" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-14" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Exfiltration&lt;br&gt;(Data Upload)&lt;br&gt;T1048" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-13" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Command &amp;amp; Control&lt;br&gt;(201.0.102.32:4444)&lt;br&gt;T1071" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-12" edge="1" parent="1" source="WHWTmYeJACPOrywJ-K2l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WHWTmYeJACPOrywJ-K2l-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Persistence&lt;br&gt;(Run Key Created)&lt;br&gt;T1547.001" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WHWTmYeJACPOrywJ-K2l-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Containment&lt;br&gt;(Endpoint Isolated)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="840" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
